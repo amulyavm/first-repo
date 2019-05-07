@@ -2,7 +2,7 @@ package bankOA;
 
 public class Bank {
 	
-	double total=0;
+	double total;
   public void deposite(double a) {
 
 	  System.out.println("Total money available after the depostie is "+ (total + a));

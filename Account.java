@@ -16,6 +16,12 @@ public class Account {
 		
 		anu.deposite(500);
 		ram.intrest();
+		ram.deposite(1000);
+		ram.withdraw(500);
+		anu.withdraw(1000);
+		anu.intrest();
+		anu.deposite(5000);
+		ram.deposite(6000);
 		
 		
 		
